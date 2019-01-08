@@ -17,7 +17,7 @@ p, a {
 	color : #616161 ;
 	font-family : Arial, sans-serif ;
 	text-decoration : none ;
-} a:hover {
+} footer a:hover {
         text-decoration : underline ;
 }
 
@@ -32,8 +32,9 @@ header {
 } nav a {
 	font-size : 0.80em ;
 	padding : 0 5px 5px 5px ;
-} nav a:hover {
+} .outil_de_selection:hover {
 	color : #2a2a2a ;
+	text-decoration : underline ;
 } #loginbutton {
 	padding : 8px ;
 	margin-left : 5px ;
@@ -43,7 +44,8 @@ header {
 	background-color : #4885ed ;
 	font-weight : bold ;
 	border-radius : 2px ;
-} 
+}
+
 
 #main {
 	display : flex ;
